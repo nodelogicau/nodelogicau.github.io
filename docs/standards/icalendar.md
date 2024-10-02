@@ -26,4 +26,24 @@ support a given use-case. Such changes can be maintained locally, or shared back
 as required, but either approach is supported in iCalendar.
 
 This flexible and distributed nature of iCalendar means that you are not constrained to a single, centralized
-tool for managing historical and future data.
+tool for managing historical and future data. In fact, the use of iCalendar means that multiple tool
+implementation approaches can be simultaneously supported.
+
+### Local User Agent
+
+A local client is a dedicated tool for a single user, typically integrated with email functionality (e.g.
+MS Outlook, Mozilla Thunderbird, etc.). Such tools are good for creating and managing data, with collaboration
+options typically limited to email. They are also typically not dependent on network connectivity to function.
+
+### Shared User Agent
+
+A shared, multi-tenant application supports user authentication to access personal and shared workspaces
+(e.g. Google Workspace, MS Office365, etc.). These tools typically support all the features of a local client,
+but are available from multiple devices. They may also support more efficient, immediate means of collaboration,
+rather than rely on email.
+
+### Bridge User Agent
+
+A bridge is an adapter that used to convert iCalendar to/from existing application functionality, where iCalendar
+is not natively supported (e.g. IFTTT, Zapier, etc.). Such tools may typically be multi-tenanted, and support per-user
+configurations that use application APIs to keep data in sync with iCalendar sources.
