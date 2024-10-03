@@ -17,3 +17,10 @@ provides similar functionality to centrally managed tools. However as an open st
 for integration with multiple tools simultaneously, and does not present the same lock-in inherent
 with proprietary tooling.
 
+A vCard object is typically not published explicitly, but rather is attached to a related object
+(either inline or as a link) such as an event or action. A receiving system may choose to aggregate
+such vCard objects so it may be used in future for initiating scheduling and other communications.
+
+As vCard is a distributed data mechanism it may also be maintained or updated locally to reflect
+additional information related to entities known to a system. Any future updates from external
+sources should be merged with local changes.
