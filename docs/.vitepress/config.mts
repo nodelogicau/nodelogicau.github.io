@@ -3,13 +3,13 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Node Logic",
-  description: "Standards-based communication and collaboration",
+  description: "Open standards productivity tools",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Coucou', link: '/coucou' },
-      { text: 'Coucal', link: '/coucal' },
+      { text: 'Coucal Workspaces', link: '/coucal/workspaces' },
+      { text: 'Coucal Workflows', link: '/coucal/workflows' },
     ],
 
 //     sidebar: [
